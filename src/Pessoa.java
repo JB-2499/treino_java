@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Pessoa {
     private String nome;
     private int idade;
+    private String emprego;
+    private boolean empregado;
 
     public int funcao(int idade) {
         idade += 1;
@@ -49,5 +51,21 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public String getEmprego() {
+    	return emprego;
+    }
+
+    public void setEmprego(String emprego) {
+    	this.emprego = emprego;
+    }
+
+    public boolean isEmpregado() {
+    	return empregado;
+    }
+
+    public void setEmpregado(boolean empregado) {
+    	this.empregado = empregado;
     }
 }

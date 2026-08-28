@@ -5,5 +5,10 @@ public class Main {
 
         cleitinho.setIdade(43);
         cleitinho.setNome("cleyton");
+        System.out.println(cleitinho.getIdade() + " " + cleitinho.getNome());
+
+        Pessoa felipeFeliciano = new Pessoa("FelipeGostoso",21);
+        System.out.println(felipeFeliciano.getNome() + " " + felipeFeliciano.getIdade());
+
     }
 }
