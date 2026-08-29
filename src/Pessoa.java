@@ -68,4 +68,8 @@ public class Pessoa {
     public void setEmpregado(boolean empregado) {
     	this.empregado = empregado;
     }
+
+    public void falar(String fala) {
+    	System.out.println(nome + " falou: " + fala);
+    }
 }

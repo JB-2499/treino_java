@@ -10,5 +10,7 @@ public class Main {
         Pessoa felipeFeliciano = new Pessoa("FelipeGostoso",21);
         System.out.println(felipeFeliciano.getNome() + " " + felipeFeliciano.getIdade());
 
+	felipeFeliciano.falar("Maneiro cara");
+
     }
 }
