@@ -1,21 +1,12 @@
 import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Pessoa {
     private String nome;
     private int idade;
     private String emprego;
     private boolean empregado;
-
-    public int funcao(int idade) {
-        idade += 1;
-        return idade;
-    }
-
-    public int funcao(int idade, String nome) {
-        idade += 2;
-        System.out.println(nome);
-        return idade;
-    }
 
     public Pessoa() {
         this.nome = "";
@@ -25,16 +16,6 @@ public class Pessoa {
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-    }
-
-    public static Pessoa criarPessoa(Scanner sc) {
-        Pessoa pessoa = new Pessoa();
-        System.out.println("Digite o nome:");
-        pessoa.nome = sc.nextLine();
-        System.out.println("Digite a idade:");
-        pessoa.idade = sc.nextInt();
-        sc.nextLine();
-        return pessoa;
     }
 
     public String getNome() {
@@ -69,7 +50,4 @@ public class Pessoa {
     	this.empregado = empregado;
     }
 
-    public void falar(String fala) {
-    	System.out.println(nome + " falou: " + fala);
-    }
 }
