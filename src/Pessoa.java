@@ -50,4 +50,11 @@ public class Pessoa {
     	this.empregado = empregado;
     }
 
+    public void read(){
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Emprego: " + emprego);
+        System.out.println("Empregado: " + empregado);
+    }
+
 }

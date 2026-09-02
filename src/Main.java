@@ -5,6 +5,8 @@ public class Main {
         cleitinho.setIdade(43);
         cleitinho.setNome("cleyton");
 
-	cleitinho.falar("Maneiro cara");
+	//cleitinho.falar("Maneiro cara");
+    cleitinho.read();
+
     }
 }
