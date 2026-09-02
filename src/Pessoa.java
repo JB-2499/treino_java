@@ -53,7 +53,7 @@ public class Pessoa {
     	System.out.println("1 - Nome");
     	System.out.println("2 - Idade");
     	System.out.println("3 - Emprego");
-    	System.out.println("4 - Status de trabalho (empregado ou não");
+    	System.out.println("4 - Status de trabalho (empregado ou não)");
 
 	int opcao = sc.nextInt();
 	sc.nextLine();
